@@ -1,0 +1,33 @@
+if not exist bin\Debug md bin\Debug
+if not exist obj\Debug/ md obj\Debug
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include Anim_Base.cpp -o obj/Debug/Anim_Base.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include Anim_Directional.cpp -o obj/Debug/Anim_Directional.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include Entity_Manager.cpp -o obj/Debug/Entity_Manager.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include EventManager.cpp -o obj/Debug/EventManager.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include GUI_Element.cpp -o obj/Debug/GUI_Element.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include GUI_Interface.cpp -o obj/Debug/GUI_Interface.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include GUI_Label.cpp -o obj/Debug/GUI_Label.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include GUI_Manager.cpp -o obj/Debug/GUI_Manager.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include GUI_Scrollbar.cpp -o obj/Debug/GUI_Scrollbar.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include GUI_TextField.cpp -o obj/Debug/GUI_TextField.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include Game.cpp -o obj/Debug/Game.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include Main.cpp -o obj/Debug/Main.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include Map.cpp -o obj/Debug/Map.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include S_Base.cpp -o obj/Debug/S_Base.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include S_Collision.cpp -o obj/Debug/S_Collision.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include S_Control.cpp -o obj/Debug/S_Control.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include S_Movement.cpp -o obj/Debug/S_Movement.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include S_Renderer.cpp -o obj/Debug/S_Renderer.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include S_SheetAnimation.cpp -o obj/Debug/S_SheetAnimation.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include S_Sound.cpp -o obj/Debug/S_Sound.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include S_State.cpp -o obj/Debug/S_State.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include SoundManager.cpp -o obj/Debug/SoundManager.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include SpriteSheet.cpp -o obj/Debug/SpriteSheet.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include StateManager.cpp -o obj/Debug/StateManager.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include State_Game.cpp -o obj/Debug/State_Game.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include State_GameOver.cpp -o obj/Debug/State_GameOver.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include State_Intro.cpp -o obj/Debug/State_Intro.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include State_MainMenu.cpp -o obj/Debug/State_MainMenu.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include State_Paused.cpp -o obj/Debug/State_Paused.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include System_Manager.cpp -o obj/Debug/System_Manager.o
+cpp -Wall -fexceptions -g -ISFML-2.5.0/include Window.cpp -o obj/Debug/Window.o
